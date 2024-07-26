@@ -9,30 +9,6 @@ A Python-based segmental motion detection system that uses OpenCV to identify an
 - **Configurable Settings**: Adjust the number of segments, detection threshold, and recording delay time using trackbars.
 - **Recording Status**: Displays 'RECORDING' or 'IDLE' status based on detected movement.
 
-## Installation
-
-1. **Clone the repository:**
-    ```bash
-    git clone https://github.com/ssloth1/segmental-motion-detection.git
-    cd segmental-motion-detection
-    ```
-
-2. **Install the required packages:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-## Usage
-
-1. **Run the motion detection script:**
-    ```bash
-    python segmental_motion_detection.py
-    ```
-
-2. **Adjust settings**: Use the trackbars in the 'Motion Detection Demonstration' window to adjust the threshold, number of segments, and delay time.
-
-3. **Exit the demonstration**: Press any key to exit the motion detection demonstration.
-
 ## Code Overview
 
 ### `SegmentalMotionDetection` Class
